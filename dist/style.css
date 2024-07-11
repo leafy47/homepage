@@ -4,9 +4,12 @@
 
 .parabola {
     background-color: #013A6B;
-    background-image: linear-gradient(-35deg, #ffffff 50%, #013A6B 50%);
-    height: 2000px;
+    background-image: linear-gradient(-15deg, #ffffff 50%, #3aa3ff 50%);
     padding: 50px 200px 0px 200px;
+}
+
+.inner {
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -45,4 +48,78 @@
 
 .aboutme {
     font-size: 45px;
+}
+
+.theworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 35px;
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.project {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: min-content;
+    box-shadow: 10px 5px 10px;
+    gap: 10px;
+    margin-bottom: 55px;
+}
+
+.projectimage {
+    height: 350px;
+    width: auto;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+span {
+    font-size: 25px;
+}
+
+.projecttitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+
+.project-desc {
+    padding: 0px 15px 0px 15px;
+}
+
+footer {
+    background-color: #3aa3ff;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+footer img {
+    height: 370px;
+    width: auto;
+    margin-left: 8px;
+}
+
+.info-page {
+    width: 400px;
+    font-size: 21px;
+
+}
+
+h4 {
+    font-size: 35px;
 }
